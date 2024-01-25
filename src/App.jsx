@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import cat from './assets/cat.jpg'
 
 function App() {
 
@@ -36,7 +37,7 @@ function App() {
     </Navbar>
     <div className='cardstyle'>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={cat} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
